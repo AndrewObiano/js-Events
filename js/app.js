@@ -108,7 +108,7 @@ function showProfile(){
     bio.appendChild(sign);
 
     var hobbies = document.createElement('li');
-    hobbies.innerHTML = 'Hobbies: ' + grimace.hobbies;
+    hobbies.innerHTML = 'Hobbies: ' + grimace.hobbies.join(' , ');
     bio.appendChild(hobbies);
 }
 
